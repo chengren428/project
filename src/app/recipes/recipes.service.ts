@@ -2,7 +2,7 @@ import { EventEmitter, Injectable } from '@angular/core';
 
 import { Ingredient } from '../shared/ingredient.model';
 import { Recipe } from './recipe.model';
-import { ShoppingListService } from "app/shopping-list/shopping-list.service";
+import { ShoppingListService } from 'app/shopping-list/shopping-list.service';
 
 @Injectable()
 export class RecipesService {
